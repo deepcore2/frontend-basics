@@ -1,0 +1,14 @@
+{
+  "name": "Molveno Lake Resort App",
+  "version": "1.0.0",
+  "description": "Molveno Lake Resort",
+  "main": "index.js",
+  "scripts": {
+    "test": "mlr-test"
+  },
+  "author": "Peter Hofman",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^4.11.0"
+  }
+}
