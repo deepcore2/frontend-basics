@@ -1,27 +1,27 @@
-BODY {
-	font-family: "Comic Sans MS";
+body {
+    font-family: "Comic Sans MS";
 	font-style: normal;
 	text-decoration: none;
 	background-color : #99CCFF;
 	font : normal normal normal/normal "Comic Sans MS";
     color : Teal;
-    nav {
-        background-color: coral;
+}
+nav {
+        background-color: lightcoral;
         padding: 10px;
         border-radius: 4px;
     }
     main {
-        background-color: blue;
+        background-color: lightblue;
         padding: 10px;
         border-radius: 4px;
     }
     footer {
-        background-color: green;
+        background-color: lightgreen;
         padding: 10px;
         border-radius: 4px;
     }
-}
-   A:link {
+A:link {
 	text-decoration : none;
 	font-family : "Comic Sans MS";
 	font : normal normal normal/normal "Comic Sans MS";
