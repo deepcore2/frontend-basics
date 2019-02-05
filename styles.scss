@@ -1,23 +1,40 @@
+$default-bg-color: lightblue;
+$default-fg-color: teal;
+$menu-bg-color: lightgreen;
+$menu-fg-color: black;
+$footer-bg-color: orange;
+$footer-fg-color: black;
+
+.menu {
+	height: 30px;
+	background-color: $menu-bg-color;
+	color: $menu-fg-color;
+	padding: 10px;
+	border-radius: 4px;
+	text-align: center;
+	font-size: 20px
+  }
+.footer {
+	background: $footer-bg-color;
+	color: $footer-fg-color;
+	padding: 10px;
+	border-radius: 4px;
+	height: 40px;
+	font-size: 25px;
+	text-align: center;
+}
+
 body {
   font-family: "Comic Sans MS";
   font-style: normal;
   text-decoration: none;
-  background-color: #99ccff;
-  font: normal normal normal/normal "Comic Sans MS";
-  color: Teal;
+  background: $default-bg-color;
+  color: $default-fg-color;
 }
-nav {
-  background-color: lightcoral;
-  padding: 10px;
-  border-radius: 4px;
-}
+
 main {
-  background-color: lightblue;
-  padding: 10px;
-  border-radius: 4px;
-}
-footer {
-  background-color: lightgreen;
+  background: $default-bg-color;
+  color: $default-fg-color;
   padding: 10px;
   border-radius: 4px;
 }
