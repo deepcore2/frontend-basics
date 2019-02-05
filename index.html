@@ -8,7 +8,7 @@
         <title>Molveno Lake Resort</title>
     </head>
     <body>
-        <nav>
+        <nav class="menu">
             <a href="/">home</a>
             <a href="/about">about</a>
             <a href="/contact">contact</a>
@@ -23,13 +23,17 @@
             <P>Illum minima ducimus reiciendis temporibus porro rem provident ipsum fugit soluta possimus sequi voluptatem exercitationem commodi aperiam odio cum doloremque, autem, quisquam pariatur veritatis corporis architecto rerum. Atque, optio nemo!</P>
             <h2>Wat kunt u doen?</h2>
             <ul>
-                    <li><a href="/hotel">Het hotel bezoeken.</a></li>
-                    <li><a href="/restaurant">Lekker eten in ons restaurant.</a></li>
-                    <li><a href="/evenementen">Sportief aan de gang.</a></li>
-                  </ul>
+                <li><a href="/hotel">Het hotel bezoeken.</a>            Aantal kamers <select name="NumKamer" id="NumKamer"><option value=1>1</option><option value=2>2</option><option value=3>3</option><option value=4>4</option></select>
+                    Aantal personen <select name="NumGast" id="NumGast"><option value=1>1</option><option value=2>2</option><option value=3>3</option><option value=4>4</option></select>
+                    Locatie <select name="Locatie" id="Locatie"><option value="Meerzicht">Meerzicht</option><option value="Boslook">Boslook</select>
+        </li>
+                <li><a href="/restaurant">Lekker eten in ons restaurant.</a></li>
+                <li><a href="/evenementen">Sportief aan de gang.</a></li>
+            </ul>
+
         </main>
-        <footer>
-                <h6>*Trigger Support*</h6>
+        <footer class="footer">
+            *Trigger Support*
         </footer>
     </body>
 </html>
