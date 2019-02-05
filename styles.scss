@@ -1,0 +1,30 @@
+BODY {
+	font-family: "Comic Sans MS";
+	font-style: normal;
+	text-decoration: none;
+	background-color : #99CCFF;
+	font : normal normal normal/normal "Comic Sans MS";
+	color : Teal;
+}
+   A:link {
+	text-decoration : none;
+	font-family : "Comic Sans MS";
+	font : normal normal normal/normal "Comic Sans MS";
+	}
+   A:visited {
+	color: #00FF00;
+	text-decoration : none;
+	font-family : "Comic Sans MS";
+}
+   A:active {
+	color: #FF0000;
+	text-decoration : none;
+	font-family : "Comic Sans MS";
+}
+H1, H2, H3, H4, H5, H6, P {
+	font-family : "Comic Sans MS";
+}
+HR {
+	width : 95%;
+	text-align : center;
+}
