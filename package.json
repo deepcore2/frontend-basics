@@ -4,11 +4,13 @@
   "description": "Molveno Lake Resort",
   "main": "index.js",
   "scripts": {
-    "test": "mlr-test"
+    "test": "mlr-test",
+    "sass": "node-sass styles.scss -wo ./"
   },
   "author": "Peter Hofman",
   "license": "ISC",
-  "dependencies": {
+  "dependencies": {},
+  "devDependencies": {
     "node-sass": "^4.11.0"
   }
 }
