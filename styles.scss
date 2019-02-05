@@ -4,7 +4,22 @@ BODY {
 	text-decoration: none;
 	background-color : #99CCFF;
 	font : normal normal normal/normal "Comic Sans MS";
-	color : Teal;
+    color : Teal;
+    nav {
+        background-color: coral;
+        padding: 10px;
+        border-radius: 4px;
+    }
+    main {
+        background-color: blue;
+        padding: 10px;
+        border-radius: 4px;
+    }
+    footer {
+        background-color: green;
+        padding: 10px;
+        border-radius: 4px;
+    }
 }
    A:link {
 	text-decoration : none;
