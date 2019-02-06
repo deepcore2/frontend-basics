@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "mlr-test",
-    "sass": "node-sass styles.scss -wo ./"
+    "sass": "node-sass source/styles/index.scss -wo ./dist/css"
   },
   "author": "Peter Hofman",
   "license": "ISC",
