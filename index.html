@@ -5,6 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <link rel="stylesheet" type="text/css" href="styles.css">
+        <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
         <title>Molveno Lake Resort</title>
     </head>
     <body>
@@ -23,10 +24,21 @@
             <P>Illum minima ducimus reiciendis temporibus porro rem provident ipsum fugit soluta possimus sequi voluptatem exercitationem commodi aperiam odio cum doloremque, autem, quisquam pariatur veritatis corporis architecto rerum. Atque, optio nemo!</P>
             <h2>Wat kunt u doen?</h2>
             <ul>
-                <li><a href="/hotel">Het hotel bezoeken.</a> Aantal kamers <select name="NumKamer" id="NumKamer"><option value=1>1</option><option value=2>2</option><option value=3>3</option><option value=4>4</option></select>
+                <li><a href="/hotel">Het hotel bezoeken.</a><form><label for="start">Van:</label>
+                    <input type="date" id="start" name="trip-start"
+                           value="2018-07-22"
+                           min="2018-01-01" max="2018-12-31"> tot : </label>
+                           <input type="date" id="eind" name="trip-eind"
+                                  value="2018-07-22"
+                                  min="2018-01-01" max="2018-12-31">
+                    Aantal kamers <select name="NumKamer" id="NumKamer"><option value=1>1</option><option value=2>2</option><option value=3>3</option><option value=4>4</option></select>
                     Aantal personen <select name="NumGast" id="NumGast"><option value=1>1</option><option value=2>2</option><option value=3>3</option><option value=4>4</option></select>
-                    Locatie <select name="Locatie" id="Locatie"><option value="Meerzicht">Meerzicht</option><option value="Boslook">Boslook</select> <a href="/BoekKamer">Boeken</a></li>
-                <li><a href="/restaurant">Lekker eten in ons restaurant.</a> Aantal personen <select name="NumGast" id="NumGast"><option value=1>1</option><option value=2>2</option><option value=3>3</option><option value=4>4</option></select> <a href="/Boekrestaurant">Boeken</a></li>
+                    Locatie <select name="Locatie" id="Locatie"><option value="Meerzicht">Meerzicht</option><option value="Boslook">Boslook</select> <input type="submit" value="Boeken"></form></li>
+                <li><a href="/restaurant">Lekker eten in ons restaurant. </a><form><label for="start">Op:</label>
+                    <input type="date" id="start" name="trip-start"
+                           value="2018-07-22"
+                           min="2018-01-01" max="2018-12-31"> Om: <input type="time" id="aanvang" name="aanvang"
+                           min="18:00" max="22:00" value="18:00" required> </label> met <select name="NumGast" id="NumGast"><option value=1>1</option><option value=2>2</option><option value=3>3</option><option value=4>4</option></select> personen <input type="submit" value="Boeken"></form></li>
                 <li><a href="/evenementen">Sportief aan de gang.</a></li>
             </ul>
 
