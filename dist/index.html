@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" type="text/css" href="css/index.css">
+        <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+        <title>Molveno Lake Resort</title>
+    </head>
+    <body>
+        <nav class="menu">
+            <a href="/" title="Click to select">home</a>
+            <a href="/about" title="Click to select">about</a>
+            <a href="/contact" title="Click to select">contact</a>
+        </nav>
+        <main class="main">
+            <h1>Molveno Lake Resort</h1>
+            <h2><strong>WELKOM</strong> bij de website van het Molveno Lake Resort</h2>
+            <P class="dynamic-color">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt mollitia delectus totam natus officiis eius consequuntur quasi, minima tempora dolorum quas. Soluta quis consequatur neque omnis laborum esse, perspiciatis molestias.</P>
+            <P class="dynamic-color">Consequuntur aliquam veritatis quae qui officiis ipsa doloribus eligendi hic tenetur, ab nulla voluptas tempora assumenda deserunt explicabo? Nesciunt doloremque sapiente dolorem perspiciatis. Repellat hic debitis nam amet iure. Laborum.</P>
+            <P class="dynamic-color">Incidunt nemo mollitia alias similique doloribus eaque inventore quo maiores distinctio fugiat eum, impedit neque! Fugiat id voluptates incidunt soluta qui rem delectus, atque ratione adipisci sint quisquam magni et!</P>
+            <P class="dynamic-color">Dolore dolorum dicta corporis dolorem reiciendis fugit saepe exercitationem. Aliquam cupiditate, reiciendis veritatis, magnam omnis placeat labore, libero nesciunt doloremque corrupti officiis ab tempore dolores obcaecati pariatur quia necessitatibus quis.</P>
+            <P class="dynamic-color">Illum minima ducimus reiciendis temporibus porro rem provident ipsum fugit soluta possimus sequi voluptatem exercitationem commodi aperiam odio cum doloremque, autem, quisquam pariatur veritatis corporis architecto rerum. Atque, optio nemo!</P>
+            <h2>Wat kunt u doen?</h2>
+            <ul>
+                <li><a href="/hotel">Het hotel bezoeken.</a><form action="boeking_pagina.html" method="post"><label for="start">Van:</label>
+                    <input type="date" id="start" name="trip-start"
+                           value="2018-07-22"
+                           min="2018-01-01" max="2018-12-31"> tot : </label>
+                           <input type="date" id="eind" name="trip-eind"
+                                  value="2018-07-22"
+                                  min="2018-01-01" max="2018-12-31">
+                    Aantal kamers <select name="NumKamer" id="NumKamer"><option value=1>1</option><option value=2>2</option><option value=3>3</option><option value=4>4</option></select>
+                    Aantal personen <select name="NumGast" id="NumGast"><option value=1>1</option><option value=2>2</option><option value=3>3</option><option value=4>4</option></select>
+                    Locatie <select name="Locatie" id="Locatie"><option value="Meerzicht">Meerzicht</option><option value="Boslook">Boslook</select> <input type="submit" value="Boeken"></form></li>
+                <li><a href="/restaurant">Lekker eten in ons restaurant. </a><form action="boeking_pagina.php" method="post"><label for="start">Op:</label>
+                    <input type="date" id="start" name="trip-start"
+                           value="2018-07-22"
+                           min="2018-01-01" max="2018-12-31"> Om: <input type="time" id="aanvang" name="aanvang"
+                           min="18:00" max="22:00" value="18:00" required> </label> met <select name="NumGast" id="NumGast"><option value=1>1</option><option value=2>2</option><option value=3>3</option><option value=4>4</option></select> personen <input type="submit" value="Boeken"></form></li>
+                <li><a href="/evenementen">Sportief aan de gang.</a></li>
+            </ul>
+
+        </main>
+        <footer class="footer">
+            *Trigger Support*
+        </footer>
+    </body>
+</html>
